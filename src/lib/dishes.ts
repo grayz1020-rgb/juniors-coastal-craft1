@@ -7,18 +7,16 @@ import shrimpTacos from "@/assets/shrimp-tacos.jpg";
 import friedCatfish from "@/assets/fried-catfish.jpg";
 import seafoodFeast from "@/assets/seafood-feast.jpg";
 import crabCakes from "@/assets/crab-cakes.jpg";
-
 export type Dish = {
   name: string;
   tagline: string;
   image: string;
 };
-
 export const featuredDishes: Dish[] = [
   {
     name: "Shrimp & Grits",
     tagline: "Creamy stone-ground grits, sautéed shrimp, andouille sausage, cheddar, and scallions.",
-    image: shrimpGrits.url,
+    image: shrimpGrits,
   },
   {
     name: "Captain's Platter",
@@ -53,7 +51,7 @@ export const featuredDishes: Dish[] = [
   {
     name: "Blackened Shrimp",
     tagline: "Jumbo shrimp seared in Cajun spice, served with collards, corn, and hush puppies.",
-    image: blackenedShrimp.url,
+    image: blackenedShrimp,
   },
   {
     name: "Crab Cakes",
@@ -61,10 +59,9 @@ export const featuredDishes: Dish[] = [
     image: crabCakes,
   },
 ];
-
 export const galleryImages = [
-  { src: shrimpGrits.url, alt: "Shrimp & Grits" },
-  { src: blackenedShrimp.url, alt: "Blackened Shrimp Plate" },
+  { src: shrimpGrits, alt: "Shrimp & Grits" },
+  { src: blackenedShrimp, alt: "Blackened Shrimp Plate" },
   { src: captainsPlatter, alt: "Captain's Platter" },
   { src: friedShrimp, alt: "Fried Shrimp Basket" },
   { src: blackenedMahi, alt: "Blackened Mahi" },
