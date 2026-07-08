@@ -34,7 +34,7 @@ export function Header() {
       <div className="container-page flex items-center justify-between gap-4 py-4 md:py-5">
         <Link to="/" className="flex items-center gap-3 shrink-0" aria-label="Junior's Seafood Home">
           <img
-            src={logo.url}
+            src={logo}
             alt="Junior's Seafood Restaurant & Grill"
             width={200}
             height={100}
@@ -46,7 +46,7 @@ export function Header() {
         <nav className="hidden md:flex items-center gap-7">
           {NAV.map((item) =>
             "hash" in item ? (
-              <a
+              
                 key={item.label}
                 href={item.to}
                 className="text-sm font-semibold text-[var(--ocean-deep)] hover:text-[var(--sunset)] transition-colors"
@@ -93,7 +93,7 @@ export function Header() {
           <nav className="container-page py-4 flex flex-col gap-1">
             {NAV.map((item) =>
               "hash" in item ? (
-                <a
+                
                   key={item.label}
                   href={item.to}
                   onClick={() => setOpen(false)}
