@@ -52,7 +52,7 @@ function Home() {
             <div className="order-1 md:order-2 relative">
               <div className="relative overflow-hidden rounded-lg shadow-[0_20px_50px_-20px_rgba(22,58,95,0.35)]">
                 <img
-                  src={heroImg.url}
+                  src={heroImg}
                   alt="Inside Junior's Seafood Restaurant & Grill"
                   width={1600}
                   height={1200}
