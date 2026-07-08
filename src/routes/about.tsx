@@ -75,7 +75,7 @@ function AboutPage() {
       </section>
 
       <section className="container-page py-20 md:py-24 grid gap-6 md:grid-cols-3">
-        <img src={shrimpGrits.url} alt="Shrimp and grits" loading="lazy" className="rounded-3xl aspect-square object-cover w-full md:col-span-1 md:row-span-2 md:aspect-[3/4]" />
+        <img src={shrimpGrits} alt="Shrimp and grits" loading="lazy" className="rounded-3xl aspect-square object-cover w-full md:col-span-1 md:row-span-2 md:aspect-[3/4]" />
         <div className="md:col-span-2 flex flex-col justify-center">
           <p className="eyebrow">Mission</p>
           <h2 className="font-display font-bold text-4xl md:text-5xl mt-3">Great seafood, honest prices, and time you'll remember.</h2>
