@@ -1,7 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { Facebook, Instagram, MapPin, Phone } from "lucide-react";
 import logo from "@/assets/juniors-logo.jpeg";
-
 export function Footer() {
   return (
     <footer className="relative mt-24 bg-[var(--ocean-deep)] text-white">
@@ -16,10 +15,9 @@ export function Footer() {
           />
         </svg>
       </div>
-
       <div className="container-page relative py-16 grid gap-12 md:grid-cols-4">
         <div className="md:col-span-1">
-          <img src={logo.url} alt="Junior's Seafood Restaurant & Grill" className="h-16 w-auto rounded-md" />
+          <img src={logo} alt="Junior's Seafood Restaurant & Grill" className="h-16 w-auto rounded-md" />
           <p className="mt-4 text-sm text-white/70 leading-relaxed">
             Fresh seafood, Southern hospitality, and family tradition — serving Northeast Florida since day one.
           </p>
@@ -32,7 +30,6 @@ export function Footer() {
             </a>
           </div>
         </div>
-
         <div>
           <h4 className="font-display text-lg mb-4">Explore</h4>
           <ul className="space-y-2 text-sm text-white/75">
@@ -42,7 +39,6 @@ export function Footer() {
             <li><Link to="/contact" className="hover:text-[var(--seafoam)]">Contact</Link></li>
           </ul>
         </div>
-
         <div>
           <h4 className="font-display text-lg mb-4">Callahan</h4>
           <address className="not-italic space-y-2 text-sm text-white/75">
@@ -51,7 +47,6 @@ export function Footer() {
             <p className="pt-1 text-white/60">Sun–Thu · 11 AM – 9 PM<br />Fri–Sat · 11 AM – 10 PM</p>
           </address>
         </div>
-
         <div>
           <h4 className="font-display text-lg mb-4">Jacksonville</h4>
           <address className="not-italic space-y-2 text-sm text-white/75">
@@ -61,7 +56,6 @@ export function Footer() {
           </address>
         </div>
       </div>
-
       <div className="border-t border-white/10">
         <div className="container-page py-6 flex flex-col md:flex-row items-center justify-between gap-2 text-xs text-white/50">
           <p>© {new Date().getFullYear()} Junior's Seafood Restaurant &amp; Grill. All rights reserved.</p>
